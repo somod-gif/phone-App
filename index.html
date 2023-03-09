@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+    <main>
+        
+        <div class="phone">
+            <div class="phone-nav d-flex">
+               <span id="dt"></span>
+                <i class="icofont-wifi"></i>
+                <i class="icofont-battery-full"></i>      
+            </div>
+            <div id="dsp">
+                <span id="hhours"></span>
+                <div class="hy">
+                    <div class="home" onclick="showallapps()">
+                        <i class="icofont-home"></i>
+                    </div>
+                    <div onclick="call()" class="home">
+                        <i class="icofont-phone-circle"></i>
+                    </div>
+                    <div class="home">
+                        <i class="icofont-camera"></i>
+                    </div>
+                </div>                
+            </div>
+            <div class="phone-btm ">
+                <div onclick="gobk()" class="bk">
+                    <i class="icofont-circled-right"></i>
+                </div>
+                <div class="bk">
+                    <i class="icofont-rounded-expand"></i>
+                </div>
+                <div class="bk">
+                    <i class="icofont-circled-right"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+<script src="./script.js"></script>
